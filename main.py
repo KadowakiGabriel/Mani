@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit import session_state as state
 import pandas as pd
-import gspread
 from gspread_dataframe import get_as_dataframe
 from streamlit_option_menu import option_menu 
 from datetime import datetime
